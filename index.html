@@ -4,42 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=>>, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <title>Minha Página Pessoal</title>
 </head>
 <body>
     <header>
-        <h1>Página Pessoal da Liana Tavares</h1>
-        <h4>Linda, Maravilhosa e Perfeita</h4>
-
+        <h1>Liana Tavares</h1>
+        <h3>Compartilhando minhas paixões por filmes, livros e vida:</h3>
+      <nav>
+         <ul>
+           <li><a href="#filme">Filme que vi</a></li>
+           <li><a href="#livro">Livro que li</a></li>
+           <li><a href="#sobre">Sobre mim</a></li>
+         </ul>
+      </nav>
     </header>
-    <nav>
-        <ul>
-            <li>Filme que vi</li>
-            <li>Livro que li</li>
-            <li>Veni Vidi Vici</li>
-        </ul>
-    </nav>
     <main>
         <section id="filme">
-            <h3>Filme que vi</h3>
-            <h6>Batman - O Cavaleiro das Trevas Ressurge</h6>
-            <inframe width="560" height="315" src="iframe width="560" height="315" src="https://www.youtube.com/embed/3tNnJP8ExUM?si=VFajO9G-_wa2Fj2G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"
-                <p> O terrorista Bane retorna para Gotham City, provocando o pânico e o desespero. Sem forças para enfrentar o terrível criminoso, sedento de sangue, a polícia da cidade chega ao seu limite, fazendo com que Batman retorne de seu exílio por ter sido responsabilizado pelos crimes de Harvey Dent.</p>
+            <div class="video-container">
+             <iframe width="560" height="315" 
+             src="https://www.youtube.com/embed/pUvnB4x8Qgs?si=brpVRJK17AgdXHmh" 
+             title="YouTube video player" 
+             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+             referrerpolicy="strict-origin-when-cross-origin" 
+             allowfullscreen></iframe>
+            </div>
+        <section class="conteudo-video">
+            <h2>Filme que vi:</h2>
+            <h3>Batman: O Cavaleiro das Trevas Ressurge</h3>
+            <p>A história se passa oito anos após os acontecimentos de Batman: O Cavaleiro das Trevas (2008). Bruce Wayne vive recluso, aposentado como Batman, após assumir a culpa pelos crimes de Harvey Dent para proteger a imagem do herói de Gotham. Porém, a paz na cidade é abalada quando surge Bane, um terrorista implacável que planeja destruir Gotham City.
+
+Forçado a sair da sombra, Bruce precisa enfrentar seus medos, dores e limitações físicas para voltar a ser o Cavaleiro das Trevas. Durante essa jornada, ele também conhece Selina Kyle (Mulher-Gato), uma ladra misteriosa com intenções ambíguas.
+
+O filme explora temas como redenção, sacrifício, coragem e esperança, mostrando o renascimento de Batman não apenas como um herói, mas como símbolo de resistência e fé no poder do bem.
+
+Com cenas de ação intensas, trilha sonora marcante de Hans Zimmer e um desfecho épico, O Cavaleiro das Trevas Ressurge encerra de forma grandiosa a trilogia de Nolan, sendo considerado um dos melhores filmes de super-herói de todos os tempos.</p>
+        </section>
         </section>
     <section id="livro">
-        <h3>Livro que li</h3>
-        <h6>Comer, Rezar e Amar</h6>
-        <img src="https://m.media-amazon.com/images/I/A1eiIu2TCWL._UF1000,1000_QL80_.jpg">
-        <p>Escrito com ironia, humor e inteligência, o best-seller de Elizabeth Gilbert é um relato sobre a importância de assumir a responsabilidade pelo próprio contentamento e parar de viver conforme os ideais da sociedade.</p>
-    </section>
-    <section>
-        <h3>Veni Vidi Vici</h3>
-        <p> "Eu vim; eu vi; eu conquistei" é uma frase latina usada para se referir a uma vitória rápida e conclusiva.
-            Me identifico totalmente com essa frase.
-        </p>
+          <br>
+          <img src="https://m.media-amazon.com/images/I/A1eiIu2TCWL._UF1000,1000_QL80_.jpg">
+          <div class="conteudo-livro"> <h2>Livro que li:</h2>
 
+            <h3>Comer, Rezar e Amar</h3>
+            <p>Em Comer, Rezar e Amar, Elizabeth Gilbert transforma sua dor em uma jornada de descoberta pessoal. A autora mostra que o autoconhecimento não é um caminho linear, mas uma busca constante entre prazer, espiritualidade e amor.
+A Itália simboliza o prazer e o corpo, a Índia representa o espírito e a fé, e a Indonésia o equilíbrio entre os dois.
+O livro reflete sobre o papel da mulher moderna, que busca independência, liberdade emocional e espiritualidade fora dos padrões tradicionais.
+Gilbert demonstra que o amor verdadeiro começa dentro de si mesma — e que é possível reconstruir a vida com leveza, coragem e autenticidade.</p>
+          </div> <br>
+    </section>
+    <section id="sobre">
+
+        <h2>Sobre mim</h2>
+        <div class="profile-image">
+        <img src="photoperfil.jpg" alt="">
+        </div>
+        <h3>Liana Tavares</h3>
+        
+        <p>
+        Sou uma pessoa alegre e extrovertida, que acredita no poder das conexões humanas e da autenticidade. Sou mãe, estudante do curso técnico em Informática no campus São João de Meriti, e também trancista — uma arte que me permite expressar criatividade e fortalecer a autoestima de outras pessoas. Feminista e defensora da liberdade de expressão, valorizo a independência, o respeito e o amor-próprio em todas as formas.</h3>
+        </p>
+        
     </section>
     </main>
-    
+        <footer>
+       <div class="social-icons">
+          <a href="https://github.com/LianaTavares" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/lianatavares28/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+
+            <p>© 2025 Liana Tavares. Todos os direitos reservados.</p>
+        </footer>
 </body>
 </html>
